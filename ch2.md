@@ -47,7 +47,6 @@ for (let row = 0; row < size; row++) {
     }
   }
 
-  // remove redundant new line character
   if (row < size - 1) {
     board += '\n';
   }
